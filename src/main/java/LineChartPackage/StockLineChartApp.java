@@ -85,7 +85,7 @@ public class StockLineChartApp extends Application {
     public StockLineChartApp() {
         // 6 minutes data per frame
         final KeyFrame frame =
-                new KeyFrame(Duration.millis(1000 / 24),
+                new KeyFrame(Duration.millis(1000 / 30),
                         (ActionEvent actionEvent) -> {
                             //Date date = new Date();
                             //System.out.println("before: " + date.getTime());
